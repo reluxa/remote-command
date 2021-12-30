@@ -1,0 +1,69 @@
+[
+    {
+        "description": "Retro radio",
+        "aliases": [
+            "start retro radio",
+            "play retro radio"
+        ],
+        "executable": "C:\\Program Files\\Windows Media Player\\wmplayer.exe",
+        "arguments": [
+            "https://icast.connectmedia.hu/5001/live.mp3"
+        ]
+    },  
+    {
+        "description": "Petofi radio",
+        "aliases": [
+            "start petofi",
+            "start petofi radio",
+            "play petofi",
+            "play petofi radio"
+        ],
+        "executable": "C:\\Program Files\\Windows Media Player\\wmplayer.exe",
+        "arguments": [
+            "https://icast.connectmedia.hu/4738/mr2.mp3"
+        ]
+    },        
+    {
+        "description": "Jazzy Radio",
+        "aliases": [
+            "start radio jazzy",
+            "start jazzy",
+            "start jazzy radio",
+            "play radio jazzy",
+            "play jazzy",
+            "play jazzy radio"
+        ],
+        "executable": "C:\\Program Files\\Windows Media Player\\wmplayer.exe",
+        "arguments": [
+            "https://jazzy.hu/jazzy.mp3"
+        ]
+    },    
+    {
+        "description": "Radio1",
+        "aliases": [
+            "play radio 1",            
+            "play radio1",
+            "play radio one",
+            "start radio1",
+            "start radio 1",
+            "start radio one"
+        ],
+        "executable": "C:\\Program Files\\Windows Media Player\\wmplayer.exe",
+        "arguments": [
+            "https://icast.connectmedia.hu/5201/live.mp3"
+        ]
+    },
+    {
+        "description": "Stop Radio",
+        "aliases": [
+            "stop",
+            "stop radio"
+        ],
+        "executable": "taskkill",
+        "arguments": [
+            "/f",
+            "/im",
+            "wmplayer.exe"
+        ]
+    }
+]
